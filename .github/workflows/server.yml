@@ -26,7 +26,7 @@ jobs:
           script: |
             export UPSTASH_REDIS_REST_URL=${{ secrets.UPSTASH_REDIS_REST_URL }}
             export CORS_ORIGIN=${{ secrets.CORS_ORIGIN }}
-            cd chat-anon
+            cd chat_anon
             git pull
             cd server
             docker-compose down
