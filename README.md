@@ -1,5 +1,6 @@
 ## Horizontally scaling chat app
 ### App Overview
+![image](https://github.com/Ajaydeep123/Chat_anon/assets/49810031/56fdc8ea-05ed-48c0-ab88-c1bf63df7f22)
 
 ### Features
 - Send and receive messages
@@ -12,7 +13,7 @@
 1. Next.js - Frontend
 1. Tailwind & Shadcn UI - Styling
 1. Redis - Pub/Sub
-1. Caddy - Loadd Balancer
+1. Caddy - Load Balancer
 1. Docker/docker-compose - Containerization
 1. GitHub actions - CI/CD
 1. DigitalOcean - Host the backend
@@ -55,5 +56,6 @@ pnpm dev
 #### Summary 
 
 <i>The provided code is a Node.js server built with the Fastify web framework, incorporating real-time communication with clients via websockets and using Redis as a message broker. </i>
+<br>
 <i>We are using Caddy as <b>Load Balancer</b>. The reverse_proxy directive in the Caddyfile is being used to distribute incoming requests evenly among the available instances of the chat application. The header_down directive can be used to set the Strict-Transport-Security header for added security. </i>
 
