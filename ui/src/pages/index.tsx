@@ -106,7 +106,7 @@ export default function Home() {
       <form onSubmit={handleSubmit} className="flex items-center">
         <Textarea
           className="rounded-lg mr-4"
-          placeholder="Tell is what's on your mind"
+          placeholder="Pour your heart out here"
           value={newMessage}
           onChange={(e) => setNewMessage(e.target.value)}
           maxLength={255}
